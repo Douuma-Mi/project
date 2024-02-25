@@ -1,0 +1,16 @@
+{
+  "name": "today-s-weather-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd Frontend && npm start\"  \" cd Backend && npm start" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "react-google-login": "^5.2.2"
+  }
+}
